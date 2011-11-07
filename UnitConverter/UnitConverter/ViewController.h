@@ -17,6 +17,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
 @property (strong, nonatomic) IBOutlet UITextField * tempText;
 
--(IBAction)convertTemp:(id)sender;
+- (IBAction)convertTemp:(id)sender;
+
+- (IBAction)textFieldReturn:(id)sender;
+
+- (IBAction)backgroundTouched:(id)sender;
 
 @end

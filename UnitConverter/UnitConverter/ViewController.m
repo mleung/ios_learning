@@ -20,6 +20,16 @@
     resultLabel.text = resultString;
 }
 
+- (void)textFieldReturn:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
+- (void)backgroundTouched:(id)sender
+{
+    [tempText resignFirstResponder];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
